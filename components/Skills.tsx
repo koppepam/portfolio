@@ -1,9 +1,9 @@
 export default function Skills() {
   return (
     <>
-      <div className="lg:w-3/4 mx-5 text-left grid grid-cols-2">
+      <div className="lg:w-3/4 ml-5 text-left lg:grid lg:grid-cols-2 divide-y divide-dashed">
         <p className="text-3xl font-bold">Skills</p>
-        <div className="">
+        <div className="lg:ml-8 py-3 space-y-3">
           <p className="text-lg font-semibold">Environments</p>
           <ul className="">
             <li>MacOS</li>
@@ -13,7 +13,7 @@ export default function Skills() {
             <li>Linux (ubuntu)</li>
           </ul>
         </div>
-        <div className="">
+        <div className="py-3 space-y-3">
           <p className="text-lg font-semibold">Languages</p>
           <ul>
             <li>HTML</li>
@@ -21,16 +21,14 @@ export default function Skills() {
             <li>JavaScript</li>
             <li>TypeScript</li>
             <li>SQL</li>
-            <li>PHP
-              <p>→WordPressで触れたことがある程度</p>
+            <li>PHP→WordPressで触れたことがある程度
             </li>
-            <li>Java
-              <p>→勉強中</p>
+            <li>Java→勉強中
             </li>
             <li>Markdown</li>
           </ul>
         </div>
-        <div className="">
+        <div className="lg:ml-8 py-3 space-y-3">
           <p className="text-lg font-semibold">Frameworks / Libraries</p>
           <ul>
             <li>React</li>
@@ -42,25 +40,23 @@ export default function Skills() {
             <li>TainwindCSS</li>
           </ul>
         </div>
-        <div className="">
+        <div className="py-3 space-y-3">
           <p className="text-lg font-semibold">Tools</p>
           <ul>
             <li>VSCode</li>
             <li>Git, GitHub</li>
             <li>Google Workspace</li>
-            <li>LINE Developers
-              <p>→LINE botやLINEログインに使用</p>
+            <li>LINE Developers→LINE botやLINEログインに使用
             </li>
           </ul>
         </div>
-        <div className="w-full">
+        <div className="lg:ml-8 py-3 space-y-3">
           <p className="text-lg font-semibold">Others</p>
           <ul>
             <li>PostgreSQL</li>
             <li>MySQL</li>
             <li>WordPress</li>
-            <li>Adobe Photoshop/XD
-              <p>→学校で触れた程度</p>
+            <li>Adobe Photoshop/XD→学校で触れた程度
             </li>
             <li>Google Apps Script</li>
           </ul>

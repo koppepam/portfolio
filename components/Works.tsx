@@ -14,6 +14,7 @@ export default function Works() {
             <img src="/images/typescript-icon.svg" alt="TypeScript" className="size-10"/>
             <img src="/images/react.svg" alt="React" className="size-10"/>
             <img src="/images/nextjs-icon.svg" alt="Next.js" className="size-10"/>
+            <img src="/images/tailwindcss-icon.svg" alt="Tailwind CSS" className="size-10"/>
             <img src="/images/firebase.svg" alt="Firebase" className="size-10"/>
           </div>
         </Worksframe>
