@@ -2,7 +2,10 @@ export default function Skills() {
   return (
     <>
       <div className="lg:w-3/4 ml-5 text-left lg:grid lg:grid-cols-2 divide-y divide-dashed">
-        <p className="text-3xl font-bold">Skills</p>
+        <div>
+          <p className="text-3xl font-bold">Skills</p>
+          <p className="mt-2">※実務経験はありません。今までに個人で行った内容を記載しています。</p>
+        </div>
         <div className="lg:ml-8 py-3 space-y-3">
           <p className="text-lg font-semibold">Environments</p>
           <ul className="">
