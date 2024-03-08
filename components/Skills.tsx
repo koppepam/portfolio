@@ -1,12 +1,11 @@
 export default function Skills() {
   return (
     <>
-      <p>Skills</p>
-      <p>※実務経験はありません。今までに個人で行った内容を記載しています。</p>
-      <div className="">
+      <div className="lg:w-3/4 mx-5 text-left grid grid-cols-2">
+        <p className="text-3xl font-bold">Skills</p>
         <div className="">
           <p className="text-lg font-semibold">Environments</p>
-          <ul>
+          <ul className="">
             <li>MacOS</li>
             <li>Windows</li>
             <li>Docker</li>
@@ -23,10 +22,10 @@ export default function Skills() {
             <li>TypeScript</li>
             <li>SQL</li>
             <li>PHP
-              <p>WordPressで触れたことがある程度</p>
+              <p>→WordPressで触れたことがある程度</p>
             </li>
             <li>Java
-              <p>勉強中</p>
+              <p>→勉強中</p>
             </li>
             <li>Markdown</li>
           </ul>
@@ -50,7 +49,7 @@ export default function Skills() {
             <li>Git, GitHub</li>
             <li>Google Workspace</li>
             <li>LINE Developers
-              <p>LINE botやLINEログインに使用</p>
+              <p>→LINE botやLINEログインに使用</p>
             </li>
           </ul>
         </div>
@@ -61,7 +60,7 @@ export default function Skills() {
             <li>MySQL</li>
             <li>WordPress</li>
             <li>Adobe Photoshop/XD
-              <p>学校で触れた程度</p>
+              <p>→学校で触れた程度</p>
             </li>
             <li>Google Apps Script</li>
           </ul>

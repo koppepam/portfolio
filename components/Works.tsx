@@ -4,7 +4,7 @@ import Worksframe from "./Worksframe";
 export default function Works() {
   return (
     <>
-      <p>Works</p>
+      <p className="text-3xl font-bold">Works</p>
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
         <Worksframe title="ポートフォリオ" image="" worklink="https://portfolio-17455.web.app/" codelink="https://github.com/koppepam/portfolio">
           <p className="m-0 max-w-[55ch] text-sm opacity-50">
@@ -34,8 +34,7 @@ export default function Works() {
           </div>
         </Worksframe>
 
-        <Worksframe title="予定お知らせbot" image="" worklink="" codelink="https://github.com/koppepam/disaster-info">
-          {/* TODO GASのコードを個人情報隠してGistに公開→codelink差し替え */}
+        <Worksframe title="予定お知らせbot" image="" worklink="" codelink="https://gist.github.com/koppepam/afdacaaff754c6a743205e45c967be07">
           <p className="m-0 max-w-[55ch] text-sm opacity-50">
             Googleカレンダーから今日・明日の予定を取得し、定時に通知するLINE botです。Google Apps Scriptで作成。
           </p>
