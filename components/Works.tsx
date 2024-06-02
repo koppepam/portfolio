@@ -35,7 +35,7 @@ export default function Works() {
           </div>
         </Worksframe>
 
-        <Worksframe title="予定お知らせbot" image="" worklink="" codelink="https://gist.github.com/koppepam/afdacaaff754c6a743205e45c967be07">
+        <Worksframe title="予定お知らせbot" image="/images/schedule-bot.png" worklink="" codelink="https://gist.github.com/koppepam/afdacaaff754c6a743205e45c967be07">
           <p className="m-0 max-w-[55ch] text-sm opacity-50">
             Googleカレンダーから今日・明日の予定を取得し、定時に通知するLINE botです。Google Apps Scriptで作成。
           </p>
