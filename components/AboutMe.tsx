@@ -15,7 +15,7 @@ export default function AboutMe() {
       <p style={text}><i className="bi bi-balloon" style={icon}></i>2006/03/15</p>
       <dl className="mt-5" style={text}><i className="bi bi-journal-check" style={icon}></i>経歴
         <dt style={text}>2024/03　株式会社Spookies アルバイト入社</dt>
-        <dd className="mx-2 text-sm">主に Laravel や Nuxt.js を用いたWebアプリケーションの開発・運用・保守メンテナンス<br/>業務全般において Docker, Node.js, Git, GitHub, Slack を使用。</dd>
+        <dd className="mx-2 text-sm">主に Laravel や Nuxt.js を用いたWebアプリケーションの開発・運用・保守を担当。<br/>業務全般において Docker, Node.js, Git, GitHub, Slack を使用。</dd>
       </dl>
     </div>
   );
