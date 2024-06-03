@@ -11,14 +11,13 @@ type Props = {
 export default function Worksframe(props: Props) {
   return (
     <div className="mx-5 my-3 group rounded-lg border px-5 py-4 transition-colors">
-      {images(props)}
-      {/* <img src={props.image} alt="サンプルイメージ" className="w-full h-50" /> */}
       <h2 className="my-3 text-2xl font-semibold">
         {props.title}
         <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-          -&gt; {/* これは矢印 */}
+          -&gt; {/* 矢印 */}
         </span>
       </h2>
+      {images(props)}
       {props.children}
       <span className="">{links(props)}</span>
     </div>
