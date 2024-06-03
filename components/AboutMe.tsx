@@ -13,9 +13,10 @@ export default function AboutMe() {
       <p style={text}><i className="bi bi-geo-alt-fill" style={icon}></i>東京都</p>
       {/* <a href="/contact" target="_blank" rel="noopener noreferrer"><i className="bi bi-send" style={icon}></i>お問い合わせ</a> */}
       <p style={text}><i className="bi bi-balloon" style={icon}></i>2006/03/15</p>
-      <ul className="mt-5" style={text}><i className="bi bi-journal-check" style={icon}></i>経歴
-        <li style={text}>2024/03　株式会社Spookies アルバイト入社</li>
-      </ul>
+      <dl className="mt-5" style={text}><i className="bi bi-journal-check" style={icon}></i>経歴
+        <dt style={text}>2024/03　株式会社Spookies アルバイト入社</dt>
+        <dd className="mx-2 text-sm">主に Laravel や Nuxt.js を用いたWebアプリケーションの開発・運用・保守メンテナンス<br/>業務全般において Docker, Node.js, Git, GitHub, Slack を使用。</dd>
+      </dl>
     </div>
   );
 }
