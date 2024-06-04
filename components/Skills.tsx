@@ -1,12 +1,12 @@
 export default function Skills() {
   return (
     <>
-      <div className="js-show-on-scroll lg:w-3/4 ml-5 text-left lg:grid lg:grid-cols-2 divide-y divide-dashed">
-        <div>
+      <div className="lg:w-3/4 ml-5 text-left lg:grid lg:grid-cols-2 divide-y divide-dashed">
+        <div className="js-show-on-scroll">
           <p className="text-3xl font-bold">Skills</p>
           <p className="mt-2">※今までに個人で行った内容を記載しています。</p>
         </div>
-        <div className="lg:ml-8 py-3 space-y-3">
+        <div className="js-show-on-scroll lg:ml-8 py-3 space-y-3">
           <p className="text-lg font-semibold">Environments</p>
           <ul className="">
             <li>MacOS</li>
@@ -16,7 +16,7 @@ export default function Skills() {
             <li>Linux (ubuntu)</li>
           </ul>
         </div>
-        <div className="py-3 space-y-3">
+        <div className="js-show-on-scroll py-3 space-y-3">
           <p className="text-lg font-semibold">Languages</p>
           <ul>
             <li>HTML</li>
@@ -31,7 +31,7 @@ export default function Skills() {
             <li>Markdown</li>
           </ul>
         </div>
-        <div className="lg:ml-8 py-3 space-y-3">
+        <div className="js-show-on-scroll lg:ml-8 py-3 space-y-3">
           <p className="text-lg font-semibold">Frameworks / Libraries</p>
           <ul>
             <li>React</li>
@@ -43,7 +43,7 @@ export default function Skills() {
             <li>TainwindCSS</li>
           </ul>
         </div>
-        <div className="py-3 space-y-3">
+        <div className="js-show-on-scroll py-3 space-y-3">
           <p className="text-lg font-semibold">Tools</p>
           <ul>
             <li>VSCode</li>
@@ -53,7 +53,7 @@ export default function Skills() {
             </li>
           </ul>
         </div>
-        <div className="lg:ml-8 py-3 space-y-3">
+        <div className="js-show-on-scroll lg:ml-8 py-3 space-y-3">
           <p className="text-lg font-semibold">Others</p>
           <ul>
             <li>PostgreSQL</li>
