@@ -1,10 +1,16 @@
-import React from "react";
+'use client';
+
 import Worksframe from "./Worksframe";
+import { FadeIn } from "./FadeIn";
+import { useEffect } from "react";
 
 export default function Works() {
+  useEffect(() => {
+    FadeIn();
+  }, []);
   return (
     <>
-      <p className="text-3xl font-bold mb-10">Works</p>
+      <p className="js-show-on-scroll text-3xl font-bold mb-10">Works</p>
       <div className="grid lg:grid-cols-2 text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:text-left">
         <Worksframe title="災害情報お知らせアプリ" image="/images/disaster-info.png" worklink="https://disaster-info-6cpa.onrender.com/" codelink="https://github.com/koppepam/disaster-info">
           <p className="mt-10 lg:max-w-[55ch] w-full text-sm opacity-50">

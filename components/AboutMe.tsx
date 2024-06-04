@@ -3,7 +3,7 @@ export default function AboutMe() {
   const text = {fontSize: "1.2rem"};
 
   return (
-    <div className="lg:w-1/2 lg:mx-0 mx-10">
+    <div className="js-show-on-scroll lg:w-1/2 lg:mx-0 mx-10">
       <h2 className="text-xl">ヨネヤマ リセ</h2>
       <div className="flex items-strech my-3 space-x-2 place-content-center lg:place-content-start">
         <a href="https://github.com/koppepam" target="_blank" rel="noopener noreferrer"><img src="/images/github-icon.svg" alt="GitHub" className="size-10"/></a>

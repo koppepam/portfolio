@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
     <>
-      <div className="lg:w-3/4 ml-5 text-left lg:grid lg:grid-cols-2 divide-y divide-dashed">
+      <div className="js-show-on-scroll lg:w-3/4 ml-5 text-left lg:grid lg:grid-cols-2 divide-y divide-dashed">
         <div>
           <p className="text-3xl font-bold">Skills</p>
           <p className="mt-2">※今までに個人で行った内容を記載しています。</p>

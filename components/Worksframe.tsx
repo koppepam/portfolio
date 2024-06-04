@@ -10,7 +10,7 @@ type Props = {
 
 export default function Worksframe(props: Props) {
   return (
-    <div className="mx-5 my-3 group rounded-lg border px-5 py-4 transition-colors">
+    <div className="js-show-on-scroll mx-5 my-3 group rounded-lg border px-5 py-4 transition-colors">
       <h2 className="my-3 text-2xl font-semibold">
         {props.title}
         <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
