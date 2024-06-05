@@ -1,7 +1,7 @@
 'use client';
 
 import Worksframe from "./Worksframe";
-import { FadeIn } from "./FadeIn";
+import { FadeIn } from "../app/utils/fadeIn";
 import { useEffect } from "react";
 
 export default function Works() {
